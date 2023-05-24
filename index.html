@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <section class="main">
+            <section class="inputs">
+                <input type="text" placeholder="Entrez la première ville ..." id="city1">
+                <input type="text" placeholder="Entrez la deuxième ville ..." id="city2">
+                <input type="submit" value="Comparer" id="compare">
+            </section>
+            <section class="display">
+                <div class="wrapper">
+                    <div class="city" id="city1out"></div>
+                    <div class="city" id="city2out"></div>
+                </div>
+                <div class="wrapper">
+                    <div id="description1"></div>
+                    <div id="description2"></div>
+                </div>
+                <div class="wrapper">
+                    <div id="temp1"></div>
+                    <div id="temp2"></div>
+                </div>
+                <div class="wrapper">
+                    <div id="wind1"></div>
+                    <div id="wind2"></div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
